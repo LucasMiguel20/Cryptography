@@ -1,0 +1,99 @@
+html {
+  height: 100%;
+  min-height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+p:last-child {
+font-weight: bolder;
+color: red;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.encript-container {
+  display: grid;
+  padding: 15px;
+}
+
+.result-container {
+  display: grid;
+  padding: 15px;
+}
+
+.right-arrow,
+.left-arrow {
+  display: flex;
+  flex-direction: column;
+}
+
+.encryptBtn,
+.decryptBtn {
+  background: none;
+  border: none;
+}
+
+.arrows-imgs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.right-arrow-img,
+.left-arrow-img {
+  height: 50px;
+  width: 60px;
+}
+
+.right-arrow-img:hover,
+.left-arrow-img:hover {
+  cursor: pointer;
+  background-color: lightgray
+}
+
+.encrypt-label,
+.decrypt-label {
+  text-align: center;
+}
+
+footer {
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  background-color: lightgrey;
+}
+
+.footerText {
+  padding-right: 15px;
+  font-weight: bold;
+}
+
+.github-img,
+.linkedin-img {
+  height: 25px;
+  width: 25px;
+  padding: 5px;
+}
+
+.footer-imgs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

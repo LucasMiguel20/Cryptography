@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura-Criptografia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+
+        <h1><i>Criptografia</i></h1>
+
+    </header>
+
+    <main>
+        <div class="phrases">
+            <p>Digite seu texto ou palavra que deseja criptografar.</p>
+            <p>Uma vez cripitografado, você pode descriptografar para ver o texto original novamente.</p>
+            <p>O resultado será mostrado após clicar no botão de interesse.</p>
+            <p><u>ATENÇÂO:</u> Somente letras minúsculas sem acentuação será permitido!</p>
+        </div>
+
+        <div class="main-container">
+            <form id="encrypt-text">
+                <div class="encript-container">
+                    <textarea name="encrypt" id="encrypt" class="patterns" placeholder="Texto a ser criptografado" cols="50" rows="10"></textarea>
+                    <button id="copyTextToEncrypt">Copiar</button>
+                </div>
+            </form>
+
+            <div class="arrows-imgs">
+                <div class="right-arrow">
+                    <button class="encryptBtn">
+                        <img class="right-arrow-img" src="img/right-arrow.png" alt="seta para direita">
+                    </button>
+                    <figcaption class="encrypt-label">Criptografar</figcaption>
+                </div>
+                <div class="left-arrow">
+                    <button class="decryptBtn">
+                        <img class="left-arrow-img" src="img/left-arrow.png" alt="seta para a esquerda">
+                    </button>
+                    <figcaption class="decrypt-label">Descriptografar</figcaption>
+                </div>
+            </div>
+
+            <form id="decrypt-text">
+                <div class="result-container">
+                    <textarea name="decrypt" id="decrypt" class="patterns" placeholder="Texto a ser descriptografado" cols="50" rows="10"></textarea>
+                    <button id="copyTextToDecrypt">Copiar</button>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p class="footerText">Desenvolvido por Lucas Pinheiro Miguel - 2022</p>
+        <div class="footer-imgs">
+            <a href="https://github.com/LucasMiguel20" target="blank">
+                <img class="github-img" src="/img/github.png" alt="github">
+            </a>
+            <a href="https://www.linkedin.com/in/lucas-pinheiro-miguel-7922b11ba/" target="blank">
+                <img class="linkedin-img" src="/img/linkedin.png" alt="linkedin">
+            </a>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+    <script src="scripts/clipboardFunction.js"></script>
+</body>
+
+</html>
